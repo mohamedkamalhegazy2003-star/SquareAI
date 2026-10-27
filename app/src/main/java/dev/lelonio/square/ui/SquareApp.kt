@@ -3905,7 +3905,7 @@ fun SquareApp(
                             verticalArrangement = Arrangement.spacedBy(16.dp),
                         ) {
                             dev.lelonio.square.ui.components.AppGlyph(64.dp)
-                            dev.lelonio.square.ui.components.SquareWordmark(height = 28.dp)
+                            dev.lelonio.square.ui.components.MkMusicWordmark(height = 28.dp)
                             // Which source is being opened, named and marked:
                             // the whole point of the wait is that the app is
                             // becoming a different one, and a bare spinner says
