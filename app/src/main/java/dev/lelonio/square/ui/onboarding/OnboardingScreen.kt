@@ -47,7 +47,7 @@ import dev.lelonio.square.data.AppLanguages
 import dev.lelonio.square.ui.MainViewModel
 import dev.lelonio.square.ui.components.AppGlyph
 import dev.lelonio.square.ui.components.FilterChip
-import dev.lelonio.square.ui.components.SquareWordmark
+import dev.lelonio.square.ui.components.MkMusicWordmark
 import dev.lelonio.square.ui.theme.Ink
 import dev.lelonio.square.ui.theme.InkDim
 
@@ -158,7 +158,7 @@ private fun Welcome(language: String, onLanguage: (String) -> Unit) {
     Spacer(Modifier.height(20.dp))
     AppGlyph(64.dp)
     Spacer(Modifier.height(22.dp))
-    SquareWordmark(height = 28.dp)
+    MkMusicWordmark(height = 28.dp)
     ProseText(stringResource(R.string.onboarding_welcome_1))
     Note(stringResource(R.string.onboarding_welcome_2))
     ProseText(stringResource(R.string.onboarding_welcome_3))
