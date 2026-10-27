@@ -171,7 +171,7 @@ fun LibraryScreen(
         // them read as two different apps.
         MainViewModel.UiState.LoggedOut -> Centered {
             dev.lelonio.square.ui.components.AppGlyph(64.dp)
-            dev.lelonio.square.ui.components.SquareWordmark(height = 28.dp)
+            dev.lelonio.square.ui.components.MkMusicWordmark(height = 28.dp)
             Text(
                 stringResource(R.string.unofficial_client),
                 style = MaterialTheme.typography.bodyMedium,
